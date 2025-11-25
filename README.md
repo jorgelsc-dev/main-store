@@ -1,1 +1,1 @@
-[# main-store](https://jorgelsc-dev.github.io/main-store/dist/)
+[# store](https://jorgelsc-dev.github.io/main-store/dist/)
