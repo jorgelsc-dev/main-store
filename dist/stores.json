@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "tech",
+    "name": "Tienda Tech",
+    "description": "Gadgets y electrónica.",
+    "logoBase64": "data:image/png;base64,AAA_TECH_LOGO_BASE64",
+    "primaryColor": "#1e88e5",
+    "products": [
+      {
+        "id": "tech-1",
+        "name": "Auriculares Inalámbricos",
+        "description": "Bluetooth 5.0, cancelación de ruido.",
+        "price": 39.99,
+        "currency": "EUR",
+        "imageBase64": "data:image/png;base64,AAA_PRODUCT1_BASE64",
+        "tags": ["audio", "bluetooth"],
+        "stock": 12
+      },
+      {
+        "id": "tech-2",
+        "name": "Teclado Mecánico",
+        "description": "Switches rojos, RGB.",
+        "price": 79.9,
+        "currency": "EUR",
+        "imageBase64": "data:image/png;base64,AAA_PRODUCT2_BASE64",
+        "tags": ["teclado", "gaming"],
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "slug": "fashion",
+    "name": "Moda Urbana",
+    "description": "Ropa streetwear.",
+    "logoBase64": "data:image/png;base64,AAA_FASHION_LOGO_BASE64",
+    "primaryColor": "#e91e63",
+    "products": [
+      {
+        "id": "fashion-1",
+        "name": "Sudadera Oversize",
+        "description": "Algodón orgánico, unisex.",
+        "price": 49.5,
+        "currency": "EUR",
+        "imageBase64": "data:image/png;base64,AAA_PRODUCT3_BASE64",
+        "tags": ["sudadera", "unisex"],
+        "stock": 20
+      },
+      {
+        "id": "fashion-2",
+        "name": "Zapatillas Retro",
+        "description": "Inspiradas en los 90.",
+        "price": 89,
+        "currency": "EUR",
+        "imageBase64": "data:image/png;base64,AAA_PRODUCT4_BASE64",
+        "tags": ["zapatillas", "retro"],
+        "stock": 8
+      }
+    ]
+  }
+]
