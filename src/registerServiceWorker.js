@@ -1,3 +1,4 @@
+// src/registerServiceWorker.js
 /* eslint-disable no-console */
 
 import { register } from "register-service-worker";
@@ -5,30 +6,26 @@ import { register } from "register-service-worker";
 if (process.env.NODE_ENV === "production") {
   register(`${process.env.BASE_URL}service-worker.js`, {
     ready() {
-      console.log(
-        "App is being served from cache by a service worker.\n" +
-          "For more details, visit https://goo.gl/AFskqB"
-      );
+      console.log("PWA lista para servir desde caché.");
     },
     registered() {
-      console.log("Service worker has been registered.");
+      console.log("Service worker registrado.");
     },
     cached() {
-      console.log("Content has been cached for offline use.");
+      console.log("Contenido cacheado para uso sin conexión.");
     },
     updatefound() {
-      console.log("New content is downloading.");
+      console.log("Nueva versión descargándose...");
     },
     updated() {
-      console.log("New content is available; please refresh.");
+      console.log("Nuevo contenido disponible.");
+      window.location.reload();
     },
     offline() {
-      console.log(
-        "No internet connection found. App is running in offline mode."
-      );
+      console.log("Sin conexión. Modo offline.");
     },
     error(error) {
-      console.error("Error during service worker registration:", error);
+      console.error("Error en el registro del service worker:", error);
     },
   });
 }

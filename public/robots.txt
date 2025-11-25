@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://jorgelsc-dev.github.io/main-store/sitemap.xml
