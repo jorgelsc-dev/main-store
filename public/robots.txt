@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://jorgelsc-dev.github.io/main-store/sitemap.xml
