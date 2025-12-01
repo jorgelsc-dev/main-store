@@ -11,8 +11,8 @@
     "products": [
       {
         "id": 1,
-        "name": "Laptop Pro",
-        "description": "Laptop de alta performance para profesionales",
+        "name": "Laptop Pro 15\"",
+        "description": "Laptop de alta performance para profesionales - Procesador última generación",
         "price": 1299,
         "oldPrice": 1599,
         "discount": 18,
@@ -25,7 +25,7 @@
       {
         "id": 2,
         "name": "Auriculares Inalámbricos",
-        "description": "Sonido premium con cancelación de ruido",
+        "description": "Sonido premium con cancelación de ruido activo",
         "price": 299,
         "oldPrice": null,
         "discount": null,
@@ -38,7 +38,7 @@
       {
         "id": 3,
         "name": "Teclado Mecánico RGB",
-        "description": "Switches rojos, iluminación RGB customizable",
+        "description": "Switches rojos, iluminación RGB customizable - Gaming pro",
         "price": 189,
         "oldPrice": 249,
         "discount": 24,
@@ -47,6 +47,32 @@
         "rating": 4.7,
         "reviews": 156,
         "stock": 92
+      },
+      {
+        "id": 7,
+        "name": "Monitor 4K 32\"",
+        "description": "Resolución 4K, 144Hz, ideal para diseño y gaming",
+        "price": 599,
+        "oldPrice": 799,
+        "discount": 25,
+        "image": "https://images.unsplash.com/photo-1527864550417-7fd231fc5205?w=500&h=400&fit=crop",
+        "category": "Monitores",
+        "rating": 4.9,
+        "reviews": 98,
+        "stock": 25
+      },
+      {
+        "id": 8,
+        "name": "Mouse Gamer",
+        "description": "Sensor PMW3389, 16000 DPI, RGB personalizable",
+        "price": 79,
+        "oldPrice": 119,
+        "discount": 34,
+        "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=400&fit=crop",
+        "category": "Periféricos",
+        "rating": 4.5,
+        "reviews": 201,
+        "stock": 156
       }
     ]
   },
@@ -54,7 +80,7 @@
     "id": 2,
     "name": "FashionHub",
     "slug": "fashion",
-    "description": "Ropa y accesorios de las mejores marcas",
+    "description": "Ropa y accesorios de las mejores marcas internacionales",
     "logo": "👕",
     "whatsappPhone": "5355375310",
     "whatsappBusinessName": "FashionHub Support",
@@ -63,7 +89,7 @@
       {
         "id": 4,
         "name": "Zapatillas Premium",
-        "description": "Comodidad y estilo en cada paso",
+        "description": "Comodidad y estilo en cada paso - Tecnología de amortiguación avanzada",
         "price": 189,
         "oldPrice": 249,
         "discount": 24,
@@ -76,7 +102,7 @@
       {
         "id": 5,
         "name": "Sudadera Oversize",
-        "description": "Algodón orgánico, confortable y resistente",
+        "description": "Algodón orgánico 100%, confortable y resistente",
         "price": 89,
         "oldPrice": 129,
         "discount": 31,
@@ -98,6 +124,172 @@
         "rating": 4.4,
         "reviews": 45,
         "stock": 67
+      },
+      {
+        "id": 9,
+        "name": "Jeans Slim Fit",
+        "description": "Denim premium, corte moderno y cómodo",
+        "price": 79,
+        "oldPrice": 109,
+        "discount": 27,
+        "image": "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=400&fit=crop",
+        "category": "Ropa",
+        "rating": 4.6,
+        "reviews": 134,
+        "stock": 87
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "HomeDecor",
+    "slug": "homedecor",
+    "description": "Decoración moderna para tu hogar",
+    "logo": "🏠",
+    "whatsappPhone": "5355375310",
+    "whatsappBusinessName": "HomeDecor Support",
+    "primaryColor": "#ff9800",
+    "products": [
+      {
+        "id": 10,
+        "name": "Lámpara LED Inteligente",
+        "description": "Luz RGB regulable, compatible con Alexa y Google Home",
+        "price": 69,
+        "oldPrice": 99,
+        "discount": 30,
+        "image": "https://images.unsplash.com/photo-1565636192335-14f5c141f4a4?w=500&h=400&fit=crop",
+        "category": "Iluminación",
+        "rating": 4.7,
+        "reviews": 93,
+        "stock": 48
+      },
+      {
+        "id": 11,
+        "name": "Almohada Ergonómica",
+        "description": "Memory foam, soporte cervical, hipoalergénica",
+        "price": 59,
+        "oldPrice": null,
+        "discount": null,
+        "image": "https://images.unsplash.com/photo-1584622181563-430f63602d4b?w=500&h=400&fit=crop",
+        "category": "Cama",
+        "rating": 4.8,
+        "reviews": 167,
+        "stock": 112
+      },
+      {
+        "id": 12,
+        "name": "Espejo de Pared Moderno",
+        "description": "Marco de aluminio, diseño minimalista",
+        "price": 149,
+        "oldPrice": 199,
+        "discount": 25,
+        "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=500&h=400&fit=crop",
+        "category": "Accesorios",
+        "rating": 4.5,
+        "reviews": 56,
+        "stock": 34
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "SportGear",
+    "slug": "sportgear",
+    "description": "Equipamiento deportivo de calidad profesional",
+    "logo": "⚽",
+    "whatsappPhone": "5355375310",
+    "whatsappBusinessName": "SportGear Support",
+    "primaryColor": "#4caf50",
+    "products": [
+      {
+        "id": 13,
+        "name": "Mochila Deportiva",
+        "description": "Compartimentos especializados, material resistente al agua",
+        "price": 99,
+        "oldPrice": 149,
+        "discount": 34,
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=400&fit=crop",
+        "category": "Accesorios",
+        "rating": 4.6,
+        "reviews": 88,
+        "stock": 73
+      },
+      {
+        "id": 14,
+        "name": "Reloj Deportivo GPS",
+        "description": "Monitor de ritmo cardíaco, GPS integrado, resistente al agua",
+        "price": 399,
+        "oldPrice": 499,
+        "discount": 20,
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=400&fit=crop",
+        "category": "Wearables",
+        "rating": 4.8,
+        "reviews": 142,
+        "stock": 29
+      },
+      {
+        "id": 15,
+        "name": "Botella Inteligente",
+        "description": "Recordatorio de hidratación, termosensible",
+        "price": 49,
+        "oldPrice": null,
+        "discount": null,
+        "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=400&fit=crop",
+        "category": "Accesorios",
+        "rating": 4.3,
+        "reviews": 34,
+        "stock": 156
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "BeautyBox",
+    "slug": "beauty",
+    "description": "Cosméticos y productos de belleza premium",
+    "logo": "💄",
+    "whatsappPhone": "5355375310",
+    "whatsappBusinessName": "BeautyBox Support",
+    "primaryColor": "#9c27b0",
+    "products": [
+      {
+        "id": 16,
+        "name": "Serum Facial Premium",
+        "description": "Ácido hialurónico, vitamina C, efecto lifting",
+        "price": 89,
+        "oldPrice": 129,
+        "discount": 31,
+        "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=400&fit=crop",
+        "category": "Cuidado",
+        "rating": 4.7,
+        "reviews": 112,
+        "stock": 65
+      },
+      {
+        "id": 17,
+        "name": "Paleta de Sombras",
+        "description": "24 colores, acabado mate y shimmer, larga duración",
+        "price": 49,
+        "oldPrice": 69,
+        "discount": 29,
+        "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=400&fit=crop",
+        "category": "Maquillaje",
+        "rating": 4.6,
+        "reviews": 89,
+        "stock": 103
+      },
+      {
+        "id": 18,
+        "name": "Mascarilla Facial",
+        "description": "Arcilla pura, desintoxicante, piel radiante",
+        "price": 39,
+        "oldPrice": null,
+        "discount": null,
+        "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=400&fit=crop",
+        "category": "Cuidado",
+        "rating": 4.5,
+        "reviews": 76,
+        "stock": 124
       }
     ]
   }
