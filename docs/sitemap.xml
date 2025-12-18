@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tu-usuario.github.io/multi-tienda-vue/</loc>
+    <loc>https://jorgelsc-dev.github.io/main-store/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://tu-usuario.github.io/multi-tienda-vue/?store=tech</loc>
+    <loc>https://jorgelsc-dev.github.io/main-store/?store=tech</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://tu-usuario.github.io/multi-tienda-vue/?store=fashion</loc>
+    <loc>https://jorgelsc-dev.github.io/main-store/?store=fashion</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://jorgelsc-dev.github.io/main-store/?store=homedecor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jorgelsc-dev.github.io/main-store/?store=sportgear</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jorgelsc-dev.github.io/main-store/?store=beauty</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
